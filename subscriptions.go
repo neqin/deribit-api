@@ -1,10 +1,11 @@
 package deribit
 
 import (
-	"github.com/frankrap/deribit-api/models"
-	"github.com/json-iterator/go"
 	"log"
 	"strings"
+
+	jsoniter "github.com/json-iterator/go"
+	"github.com/neqin/deribit-api/models"
 )
 
 func (c *Client) subscriptionsProcess(event *Event) {

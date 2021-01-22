@@ -5,15 +5,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/chuckpreslar/emission"
-	"github.com/frankrap/deribit-api/models"
-	"github.com/sourcegraph/jsonrpc2"
 	"log"
 	"net/http"
-	"nhooyr.io/websocket"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/chuckpreslar/emission"
+	"github.com/neqin/deribit-api/models"
+	"github.com/sourcegraph/jsonrpc2"
+	"nhooyr.io/websocket"
 )
 
 const (
